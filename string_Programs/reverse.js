@@ -1,9 +1,9 @@
 let inputString = process.argv[2];
-const reverseStr = function(inputString) {
-  let reverseString = "";
+const reverseString = function(inputString) {
+  let reverseStr = "";
   for(let index = inputString.length-1;index >= 0; index--) {
-    reverseString = reverseString+inputString[index];
+    reverseStr = reverseStr+inputStr[index];
   }
-  return reverseString;
+  return reverseStr;
 }
-console.log("Reverse string is",reverseStr(inputString));
+console.log("Reverse of String is",reverseString(inputString));
